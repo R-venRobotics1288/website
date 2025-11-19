@@ -1,8 +1,9 @@
+### file: .github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'master'
+    branches: 'main'
 
 jobs:
   build_site:
@@ -28,7 +29,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: 'ravenrobotics.org'
+          BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
           npm run build
 
