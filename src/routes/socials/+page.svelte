@@ -1,6 +1,5 @@
 <script>
   import Main_Header from "../main_header.svelte";
-  import aaron from "$lib/assets/IMG_8876.jpg";
 </script>
 
 <Main_Header />
