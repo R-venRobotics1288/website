@@ -63,6 +63,6 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 30vmin;
   }
 </style>
